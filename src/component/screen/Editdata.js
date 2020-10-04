@@ -41,7 +41,8 @@ class Editdata extends React.Component{
 
 
    editdata = () =>{
-        axios.post('http://homekomputer.000webhostapp.com/api/EditData.php', {
+	   const url = 'http://homekomputer.000webhostapp.com/api/EditData.php'
+        axios.post(url, {
           student_id : this.state.TextInput_Student_ID,
           student_name : this.state.TextInput_Student_Name,
           student_class : this.state.TextInput_Student_Class,
