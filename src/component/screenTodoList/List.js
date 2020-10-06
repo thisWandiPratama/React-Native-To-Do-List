@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { View, TouchableOpacity, Text, StyleSheet } from 'react-native'
 
+// Make class List
 export default class List extends Component {
   renderItem = (text, i) => {
     const { onPressItem } = this.props
