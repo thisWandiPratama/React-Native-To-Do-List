@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { TextInput, StyleSheet } from 'react-native'
 
+// make class Input
 export default class Input extends Component {
   state = {
     text: '',
