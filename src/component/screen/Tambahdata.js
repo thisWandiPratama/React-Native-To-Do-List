@@ -13,6 +13,8 @@ import {
 } from 'react-native'
 import axios from 'axios';
 
+
+// make class Tambah Data
 class TambahData extends React.Component {
   
   constructor(props){
